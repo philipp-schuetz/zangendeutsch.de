@@ -585,3 +585,12 @@ const dictionary = [
         comment: ""
     }
 ]
+
+function like(word: string, wordToCheck: string): boolean {
+    if (word.indexOf(wordToCheck) > -1 && word.indexOf(wordToCheck) <= wordToCheck.length-1) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
