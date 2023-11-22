@@ -1,587 +1,587 @@
-export const dictionary = [
+const dictionary = [
     {
         original: "Tinder",
-        "translations": ["Zunder"],
+        translations: ["Zunder"],
         comment: ""
     },
     {
         original: "Facebook",
-        "translations": ["Gesichtsbuch"],
+        translations: ["Gesichtsbuch"],
         comment: ""
     },
     {
         original: "Spotify",
-        "translations": ["Punktifizieren"],
+        translations: ["Punktifizieren"],
         comment: ""
     },
     {
         original: "Netflix",
-        "translations": ["Netzschnell"],
+        translations: ["Netzschnell"],
         comment: ""
     },
     {
         original: "internet",
-        "translations": ["Zwischennetz"],
+        translations: ["Zwischennetz"],
         comment: ""
     },
     {
         original: "lockdown",
-        "translations": ["Schlossrunter"],
+        translations: ["Schlossrunter"],
         comment: ""
     },
     {
         original: "oldschool",
-        "translations": ["Altschul"],
+        translations: ["Altschul"],
         comment: ""
     },
     {
         original: "Cringe",
-        "translations": ["Kringel"],
+        translations: ["Kringel"],
         comment: ""
     },
     {
         original: "cringy",
-        "translations": ["kringelig"],
+        translations: ["kringelig"],
         comment: ""
     },
     {
         original: "Bigfoot",
-        "translations": ["Großfuß"],
+        translations: ["Großfuß"],
         comment: ""
     },
     {
         original: "Deadpool",
-        "translations": ["Totes Schwimmbecken"],
+        translations: ["Totes Schwimmbecken"],
         comment: ""
     },
     {
         original: "Freddy Mercury",
-        "translations": ["Friedrich Quecksilber"],
+        translations: ["Friedrich Quecksilber"],
         comment: ""
     },
     {
         original: "Harry Potter",
-        "translations": ["Harald Töpfer"],
+        translations: ["Harald Töpfer"],
         comment: ""
     },
     {
         original: "Instagram",
-        "translations": ["Sofortgewichtseinheit"],
+        translations: ["Sofortgewichtseinheit"],
         comment: ""
     },
     {
         original: "Microsoft",
-        "translations": ["Kleinweich"],
+        translations: ["Kleinweich"],
         comment: ""
     },
     {
         original: "Playstation",
-        "translations": ["Spiel Station"],
+        translations: ["Spiel Station"],
         comment: ""
     },
     {
         original: "Pokemon",
-        "translations": ["Taschenungeheuer"],
+        translations: ["Taschenungeheuer"],
         comment: ""
     },
     {
         original: "Scarlett Johansson",
-        "translations": ["Närbchen Johannsspross"],
+        translations: ["Närbchen Johannsspross"],
         comment: ""
     },
     {
         original: "Spongebob",
-        "translations": ["Schwammrobert"],
+        translations: ["Schwammrobert"],
         comment: ""
     },
     {
         original: "Twitter",
-        "translations": ["Zwitscher"],
+        translations: ["Zwitscher"],
         comment: ""
     },
     {
         original: "WhatsApp",
-        "translations": ["WasApplikation"],
+        translations: ["WasApplikation"],
         comment: ""
     },
     {
         original: "XBox",
-        "translations": ["XKiste"],
+        translations: ["XKiste"],
         comment: ""
     },
     {
         original: "YouTube",
-        "translations": ["DuRöhre"],
+        translations: ["DuRöhre"],
         comment: ""
     },
     {
         original: "YouTube Shorts",
-        "translations": ["DuRöhreKurzeHose"],
+        translations: ["DuRöhreKurzeHose"],
         comment: ""
     },
     {
         original: "Based",
-        "translations": ["Basiert"],
+        translations: ["Basiert"],
         comment: ""
     },
     {
         original: "Basic",
-        "translations": ["basisch"],
+        translations: ["basisch"],
         comment: ""
     },
     {
         original: "Bitcoin",
-        "translations": ["Stückchenmünze"],
+        translations: ["Stückchenmünze"],
         comment: ""
     },
     {
         original: "Bruh",
-        "translations": ["Brüh"],
+        translations: ["Brüh"],
         comment: ""
     },
     {
         original: "Butterfly",
-        "translations": ["Butterfliege"],
+        translations: ["Butterfliege"],
         comment: ""
     },
     {
         original: "cool",
-        "translations": "kühl",
+        translations: "kühl",
         comment: ""
     },
     {
         original: "Downvote",
-        "translations": ["Runterwähli"],
+        translations: ["Runterwähli"],
         comment: ""
     },
     {
         original: "Post",
-        "translations": ["Pfosten"],
+        translations: ["Pfosten"],
         comment: ""
     },
     {
         original: "to post",
-        "translations": ["pfostieren"],
+        translations: ["pfostieren"],
         comment: ""
     },
     {
         original: "edgy",
-        "translations": ["kantig"],
+        translations: ["kantig"],
         comment: ""
     },
     {
         original: "Fan",
-        "translations": ["Lüfter","Ventilator"],
+        translations: ["Lüfter","Ventilator"],
         comment: "Anhänger von etw."
     },
     {
         original: "Hedgehog",
-        "translations": ["Heckenschwein"],
+        translations: ["Heckenschwein"],
         comment: ""
     },
     {
         original: "Homies",
-        "translations": ["Zuhausis"],
+        translations: ["Zuhausis"],
         comment: ""
     },
     {
         original: "Honey",
-        "translations": ["Honig"],
+        translations: ["Honig"],
         comment: "Liebling"
     },
     {
         original: "Imageboard",
-        "translations": ["Bilderbrett"],
+        translations: ["Bilderbrett"],
         comment: ""
     },
     {
         original: "in a nutshell",
-        "translations": ["in einer Nussschale"],
+        translations: ["in einer Nussschale"],
         comment: ""
     },
     {
         original: "inbox",
-        "translations": ["Innenschachtel"],
+        translations: ["Innenschachtel"],
         comment: ""
     },
     {
         original: "Jellyfish",
-        "translations": ["Marmeladenfisch"],
+        translations: ["Marmeladenfisch"],
         comment: ""
     },
     {
         original: "Ladybug",
-        "translations": ["Damenkäfer"],
+        translations: ["Damenkäfer"],
         comment: ""
     },
     {
         original: "literally",
-        "translations": ["literarisch"],
+        translations: ["literarisch"],
         comment: ""
     },
     {
         original: "Meme",
-        "translations": ["Maimai"],
+        translations: ["Maimai"],
         comment: ""
     },
     {
         original: "Neckbeard",
-        "translations": ["Genickbart"],
+        translations: ["Genickbart"],
         comment: ""
     },
     {
         original: "Pineapple",
-        "translations": ["Pinienapfel"],
+        translations: ["Pinienapfel"],
         comment: ""
     },
     {
         original: "Plot Twist",
-        "translations": ["Handlungszwirbler"],
+        translations: ["Handlungszwirbler"],
         comment: ""
     },
     {
         original: "Point of View",
-        "translations": ["Punkt der Sicht"],
+        translations: ["Punkt der Sicht"],
         comment: "auch POV oder PDS"
     },
     {
         original: "to relate",
-        "translations": ["relatieren"],
+        translations: ["relatieren"],
         comment: ""
     },
     {
         original: "Screenshot",
-        "translations": ["Bildschirmschuss"],
+        translations: ["Bildschirmschuss"],
         comment: ""
     },
     {
         original: "Smartwatch",
-        "translations": ["Schlauuhr", "Pfiffiguhr"],
+        translations: ["Schlauuhr", "Pfiffiguhr"],
         comment: ""
     },
     {
         original: "Stocks",
-        "translations": ["Stöcke"],
+        translations: ["Stöcke"],
         comment: "Aktien"
     },
     {
         original: "Reddit",
-        "translations": ["Lases"],
+        translations: ["Lases"],
         comment: ""
     },
     {
         original: "Subreddit",
-        "translations": ["Unterlases"],
+        translations: ["Unterlases"],
         comment: ""
     },
     {
         original: "Thread",
-        "translations": ["Faden"],
+        translations: ["Faden"],
         comment: ""
     },
     {
         original: "Threads",
-        "translations": ["Fäden"],
+        translations: ["Fäden"],
         comment: ""
     },
     {
         original: "Upvote",
-        "translations": ["Hochwähli"],
+        translations: ["Hochwähli"],
         comment: ""
     },
     {
         original: "Wallstreet",
-        "translations": ["Mauerstraße", "Wandstraße"],
+        translations: ["Mauerstraße", "Wandstraße"],
         comment: ""
     },
     {
         original: "Stream",
-        "translations": ["Strom"],
+        translations: ["Strom"],
         comment: "z.B. Livestream"
     },
     {
         original: "to stream",
-        "translations": ["strömen"],
+        translations: ["strömen"],
         comment: "z.B. Livestream"
     },
     {
         original: "Highlight",
-        "translations": ["Hochlicht"],
+        translations: ["Hochlicht"],
         comment: ""
     },
     {
         original: "FTFY",
-        "translations": ["RDFD"],
+        translations: ["RDFD"],
         comment: "fixed that for you -> reparierte das für dich"
     },
     {
         original: "cakeday",
-        "translations": ["Kuchentag"],
+        translations: ["Kuchentag"],
         comment: "Ursprung: Reddit"
     },
     {
         original: "Edgelord",
-        "translations": ["Kantenfürst"],
+        translations: ["Kantenfürst"],
         comment: ""
     },
     {
         original: "this",
-        "translations": ["dies"],
+        translations: ["dies"],
         comment: "Zustimmung in Kommentarfäden, ähnl. genutzt wie: ^"
     },
     {
         original: "source",
-        "translations": ["Soße", "Sose"],
+        translations: ["Soße", "Sose"],
         comment: ""
     },
     {
         original: "dank",
-        "translations": ["feucht"],
+        translations: ["feucht"],
         comment: "bei Maimais"
     },
     {
         original: "to be triggered",
-        "translations": ["ausgelöst sein", "geschaltert sein"],
+        translations: ["ausgelöst sein", "geschaltert sein"],
         comment: ""
     },
     {
         original: "Bamboozle",
-        "translations": ["Bambußel"],
+        translations: ["Bambußel"],
         comment: ""
     },
     {
         original: "pics or it didn't happen",
-        "translations": ["Fotografische Beweise oder ich unterstelle mangelnde Faktizität"],
+        translations: ["Fotografische Beweise oder ich unterstelle mangelnde Faktizität"],
         comment: ""
     },
     {
         original: "copypasta",
-        "translations": ["Kopiernudel"],
+        translations: ["Kopiernudel"],
         comment: ""
     },
     {
         original: "Bro",
-        "translations": ["Brudi"],
+        translations: ["Brudi"],
         comment: ""
     },
     {
         original: "Madman",
-        "translations": ["Mettmann"],
+        translations: ["Mettmann"],
         comment: ""
     },
     {
         original: "impeachment",
-        "translations": ["Einpfirsichung"],
+        translations: ["Einpfirsichung"],
         comment: ""
     },
     {
         original: "to hit the gym",
-        "translations": ["Das Gymnasium schlagen"],
+        translations: ["Das Gymnasium schlagen"],
         comment: ""
     },
     {
         original: "to lawyer up",
-        "translations": ["hoch Anwalten"],
+        translations: ["hoch Anwalten"],
         comment: ""
     },
     {
         original: "bitch",
-        "translations": ["Hündin"],
+        translations: ["Hündin"],
         comment: ""
     },
     {
         original: "master race",
-        "translations": ["Meisterrennen"],
+        translations: ["Meisterrennen"],
         comment: ""
     },
     {
         original: "joke",
-        "translations": ["Jokus"],
+        translations: ["Jokus"],
         comment: ""
     },
     {
         original: "The Undertaker",
-        "translations": ["Der Unternehmer"],
+        translations: ["Der Unternehmer"],
         comment: ""
     },
     {
         original: "Emoji",
-        "translations": ["Setzerscherz"],
+        translations: ["Setzerscherz"],
         comment: "Aus dem Altdeutschen"
     },
     {
         original: "IANAL",
-        "translations": ["IBKA", "BKA"],
+        translations: ["IBKA", "BKA"],
         comment: "I am not a lawyer -> (Ich) bin kein Anwalt"
     },
     {
         original: "Mind blown",
-        "translations": ["Geist geblasen"],
+        translations: ["Geist geblasen"],
         comment: ""
     },
     {
         original: "sheeple",
-        "translations": ["Schafels"],
+        translations: ["Schafels"],
         comment: "Kontext: Mitläufer bei Verschwörungstheorien"
     },
     {
         original: "smh",
-        "translations": ["smk"],
+        translations: ["smk"],
         comment: "Shaking my head -> Schüttel meinen Kopf"
     },
     {
         original: "mfw",
-        "translations": ["mgw"],
+        translations: ["mgw"],
         comment: "My face when -> Mein Gesicht wenn"
     },
     {
         original: "tfw",
-        "translations": ["dfw"],
+        translations: ["dfw"],
         comment: "That feeling when -> Dieses Fühl wenn"
     },
     {
         original: "salty",
-        "translations": ["salzig"],
+        translations: ["salzig"],
         comment: ""
     },
     {
         original: "Wingman",
-        "translations": ["Flügelmann"],
+        translations: ["Flügelmann"],
         comment: ""
     },
     {
         original: "never go full retard",
-        "translations": ["Gehe niemals voll verlangsamt"],
+        translations: ["Gehe niemals voll verlangsamt"],
         comment: ""
     },
     {
         original: "Hashtag",
-        "translations": ["Haschischticken"],
+        translations: ["Haschischticken"],
         comment: ""
     },
     {
         original: "MVP",
-        "translations": ["Meist wertvoller Spieler", "Meist valuierter Partizipant"],
+        translations: ["Meist wertvoller Spieler", "Meist valuierter Partizipant"],
         comment: ""
     },
     {
         original: "Right in the Kisser",
-        "translations": ["Rechts in den Küsser"],
+        translations: ["Rechts in den Küsser"],
         comment: ""
     },
     {
         original: "Update",
-        "translations": ["Hochdatum", "Hochdattel"],
+        translations: ["Hochdatum", "Hochdattel"],
         comment: ""
     },
     {
         original: "NSFW",
-        "translations": ["NSFDA"],
+        translations: ["NSFDA"],
         comment: "Not safe for work -> Nicht sicher für die Arbeit"
     },
     {
         original: "NNN",
-        "translations": ["KNN"],
+        translations: ["KNN"],
         comment: "No nut november -> Keine Nuss November"
     },
     {
         original: "Boomer",
-        "translations": ["Explodierer"],
+        translations: ["Explodierer"],
         comment: "Gemeint ist die Generation"
     },
     {
         original: "Software",
-        "translations": ["Weichware"],
+        translations: ["Weichware"],
         comment: ""
     },
     {
         original: "English",
-        "translations": ["Angelsächsisch"],
+        translations: ["Angelsächsisch"],
         comment: ""
     },
     {
         original: "digital Native",
-        "translations": ["digitaler Ureinwohner"],
+        translations: ["digitaler Ureinwohner"],
         comment: ""
     },
     {
         original: "Shrinkflation",
-        "translations": ["Schrumpflation"],
+        translations: ["Schrumpflation"],
         comment: ""
     },
     {
         original: "Twilight",
-        "translations": ["Zwielicht"],
+        translations: ["Zwielicht"],
         comment: "Film"
     },
     {
         original: "Steam",
-        "translations": ["Dampf"],
+        translations: ["Dampf"],
         comment: "Plattform für Computerspiele"
     },
     {
         original: "Call of Duty",
-        "translations": ["Ruf der Pflicht"],
+        translations: ["Ruf der Pflicht"],
         comment: "Computerspiel"
     },
     {
         original: "Blu-ray",
-        "translations": ["Blaustrahl"],
+        translations: ["Blaustrahl"],
         comment: ""
     },
     {
         original: "Discord",
-        "translations": ["Zwietracht"],
+        translations: ["Zwietracht"],
         comment: ""
     },
     {
         original: "Server",
-        "translations": ["Bediener", "Kellner"],
+        translations: ["Bediener", "Kellner"],
         comment: ""
     },
     {
         original: "Tony Hawk",
-        "translations": ["Toni Falke"],
+        translations: ["Toni Falke"],
         comment: ""
     },
     {
         original: "Homeoffice",
-        "translations": ["Innenministerium", "Zuhause Amtszimmer"],
+        translations: ["Innenministerium", "Zuhause Amtszimmer"],
         comment: ""
     },
     {
         original: "Raid Shadow Legends",
-        "translations": ["Überfall: Schatten der Legenden"],
+        translations: ["Überfall: Schatten der Legenden"],
         comment: "Handyspiel"
     },
     {
         original: "Stepbrother",
-        "translations": ["Stufenbruder"],
+        translations: ["Stufenbruder"],
         comment: ""
     },
     {
         original: "Brave",
-        "translations": ["Mutig"],
+        translations: ["Mutig"],
         comment: "Browser"
     },
     {
         original: "Firefox",
-        "translations": ["Feuerfuchs"],
+        translations: ["Feuerfuchs"],
         comment: "Browser"
     },
     {
         original: "Sandwich",
-        "translations": ["Sandhexe"],
+        translations: ["Sandhexe"],
         comment: ""
     },
     {
         original: "Fast Food",
-        "translations": ["Schnellfutter", "Schnellfraß"],
+        translations: ["Schnellfutter", "Schnellfraß"],
         comment: ""
     },
     {
         original: "Greenpeace",
-        "translations": ["Grinserbsen", "Grünstück"],
+        translations: ["Grinserbsen", "Grünstück"],
         comment: ""
     }
 ]
