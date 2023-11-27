@@ -65,3 +65,7 @@ export function isTranslation(word: string): boolean {
     const entries = dictionary.filter(entry => entry.translations.includes(word.toLowerCase()))
     return entries.length > 0
 }
+
+export function isWord(word: string): boolean {
+    return isOriginal(word) || isTranslation(word)
+}
