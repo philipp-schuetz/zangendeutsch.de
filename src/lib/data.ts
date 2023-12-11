@@ -146,7 +146,7 @@ export const dictionary = [
     },
     {
         original: "cool",
-        translations: "kühl",
+        translations: ["kühl"],
         comment: ""
     },
     {
