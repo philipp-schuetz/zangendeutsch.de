@@ -1,0 +1,16 @@
+---
+version: '0.0.1'
+services:
+  zangendeutsch-svelte:
+    image: zangendeutsch-svelte:latest
+    container_name: zangendeutsch-svelte
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Europe/Berlin
+    ports:
+      - 8000:3000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
