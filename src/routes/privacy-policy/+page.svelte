@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Datenschutz</title>
+	<title>zangendeutsch.de - Datenschutz</title>
 </svelte:head>
 
 <article>

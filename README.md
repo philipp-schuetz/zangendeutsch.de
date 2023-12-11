@@ -1,38 +1,35 @@
-# create-svelte
+# zangendeutsch.de
+Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangendeutsch-woerterbuch-erklaerung-bedeutung/), inspiriert duch [r/ich_iel](https://old.reddit.com/r/ich_iel/) auf Reddit und [c/ich_iel](https://feddit.de/c/ich_iel) im Fediverse.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Mitmachen
+### Wörter eintragen
+- Repository klonen
+- Neuen Branch vom developer Branch erstellen (z.B: word/mein-neues-wort)
+- Eintrag in [data.ts](https://github.com/philipp-schuetz/zangendeutsch.de/blob/main/src/lib/data.ts) hinzufügen oder bestehen verändern
+  - ```ts
+    {
+        original: "Spotify",
+        translations: ["Punktifizieren"],
+        comment: ""
+    }
+    ```
+- Pull Request abschicken
 
-## Creating a project
+Neu bei GitHub? [Hilfe zu GitHub Beiträgen](https://github.com/firstcontributions/first-contributions/blob/main/translations/README.de.md)
 
-If you're seeing this, you've probably already done this step. Congrats!
-
+### Entwickeln
+Aufsetzen der Entwicklungsumgebung mit npm:
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# install dependencies
+npm install
+# run dev server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
+Aufsetzen der Entwicklungsumgebung mit Docker:
 ```bash
-npm run build
+# build and run docker container with compose
+docker compose up --build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Für Änderungen bitte neuen feature Branch von developer erstellen (z.B: feature/mein-neues-feature)

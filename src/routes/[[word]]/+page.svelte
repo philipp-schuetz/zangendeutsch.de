@@ -34,7 +34,7 @@
 </script>
 
 <svelte:head>
-	<title>Zuhause</title>
+	<title>zangendeutsch.de - Zuhause</title>
 	<meta
 		name="description"
 		content="Zangendeutsch Wörterbuch"
