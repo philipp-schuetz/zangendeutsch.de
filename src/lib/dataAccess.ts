@@ -23,9 +23,11 @@ export function queryOriginalTranslations(query: string): Word[] {
         like(entry.original.toLowerCase(), query) ||
         entry.translations.some(translation => like(translation.toLowerCase(), query))
     );
-    return entries;
+    const sortedEntries = entries.sort((a, b) => a.original.localeCompare(b.original));
+    return sortedEntries;
 }
 
-export function getAll() : Word[] {
-    return dictionary;
+export function getAll(): Word[] {
+    const sortedDictionary = dictionary.sort((a, b) => a.original.localeCompare(b.original));
+    return sortedDictionary;
 };
