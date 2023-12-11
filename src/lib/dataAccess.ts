@@ -1,5 +1,11 @@
 import { dictionary } from '$lib/data'
 
+interface Word {
+    original: string;
+    translations: string[];
+    comment: string;
+}
+
 function like(word: string, wordToCheck: string): boolean {
     if (word.startsWith(wordToCheck)) {
         return true;
@@ -69,3 +75,7 @@ export function isTranslation(word: string): boolean {
 export function isWord(word: string): boolean {
     return isOriginal(word) || isTranslation(word)
 }
+
+export function getAll() : Word[] {
+    return dictionary;
+};
