@@ -86,7 +86,7 @@
 		>
 		<a
 			class="secondary"
-			href="/imprint">Impressum</a
+			href="https://github.com/philipp-schuetz/zangendeutsch.de">Mitmachen</a
 		>
 	</footer>
 </article>
