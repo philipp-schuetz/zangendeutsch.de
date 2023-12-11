@@ -43,14 +43,16 @@
 
 <article>
 	<main class="container-fluid">
-		<h1>zangendeutsch.de</h1>
-		<input
-			type="search"
-			id="search"
-			name="search"
-			placeholder="Suche"
-			bind:value={search}
-		/>
+		<hgroup>
+			<h1>zangendeutsch.de</h1>
+			<input
+				type="search"
+				id="search"
+				name="search"
+				placeholder="Suche"
+				bind:value={search}
+			/>
+		</hgroup>
 		<table>
 			<thead>
 				<tr>
@@ -68,13 +70,13 @@
 					</tr>
 				{/each}
 			</tbody>
-			<tfoot>
+			<!-- <tfoot>
 				<tr>
 					<td>Angelsächsisch</td>
 					<td>Eingedeutscht</td>
 					<td>Anmerkungen</td>
 				</tr>
-			</tfoot>
+			</tfoot> -->
 		</table>
 	</main>
 	<footer>
