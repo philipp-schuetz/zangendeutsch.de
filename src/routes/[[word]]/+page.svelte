@@ -1,10 +1,12 @@
 <script lang="ts">
-	import { BookIcon } from 'svelte-feather-icons';
 	import { page } from '$app/stores';
-	import { getPossibleWords, getTranslations, getOriginals, isWord, isTranslation, isOriginal} from '$lib/dataAccess';
+	import { queryOriginalTranslations, getAll } from '$lib/dataAccess';
+	import type { Word } from '$lib/dataAccess';
+
 	let search: string = '';
-	let previousParam = '';
-	let word: string = '';
+	let previousParam = ''; // used to detect changes in word param
+
+	// set initial value for search
 	if ($page.params.word === undefined) {
 		search = '';
 	} else {
@@ -12,50 +14,88 @@
 	}
 
 	$: {
-		if ($page.params.word !== undefined && previousParam !== $page.params.word) {
+		if (
+			$page.params.word !== undefined &&
+			previousParam !== $page.params.word
+		) {
 			previousParam = $page.params.word;
 			search = $page.params.word;
 		}
 	}
 
-	let suggestions: string[];
+	let wordsDisplayed: Word[] = [];
+
 	$: {
-		suggestions = getPossibleWords(search);
-		if (suggestions.length === 0) {
-			suggestions[0] = 'Nothing found for '+search;
-		}
-	}
-	$: {setWord(search)}
-	function setWord(toSet: string) {
-		if (isWord(toSet)) {
-			word = toSet;
+		wordsDisplayed = queryOriginalTranslations(search);
+		if (wordsDisplayed.length === 0) {
+			wordsDisplayed = getAll();
 		}
 	}
 </script>
 
 <svelte:head>
 	<title>Zuhause</title>
-	<meta name="description" content="Zangendeutsch Wörterbuch" />
+	<meta
+		name="description"
+		content="Zangendeutsch Wörterbuch"
+	/>
 </svelte:head>
-<div />
-<BookIcon />
-<input type="search" id="search" name="search" placeholder="Search" bind:value={search} />
-Word: {search}
-<br />
-<h4>Search Suggestions</h4>
-{#each suggestions as suggestion}
-	{#if isWord(suggestion)}
-		<a href="/{suggestion}">{suggestion}</a><br />
-	{/if}
-{/each}
 
-{#if word == ''}
-	<h2>Search for a word</h2><br>
-{:else}
-	<h2>Word: {word}</h2>
-	{#if isOriginal(word)}
-		{getTranslations(word)}
-	{:else if isTranslation(word)}
-		{getOriginals(word)}
-		{/if}
-	{/if}
+<article>
+	<main class="container-fluid">
+		<h1>zangendeutsch.de</h1>
+		<input
+			type="search"
+			id="search"
+			name="search"
+			placeholder="Suche"
+			bind:value={search}
+		/>
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">Angelsächsisch</th>
+					<th scope="col">Eingedeutscht</th>
+					<th scope="col">Anmerkungen</th>
+				</tr>
+			</thead>
+			<tbody>
+				{#each wordsDisplayed as word}
+					<tr>
+						<td>{word.original}</td>
+						<td>{word.translations}</td>
+						<td>{word.comment}</td>
+					</tr>
+				{/each}
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Angelsächsisch</td>
+					<td>Eingedeutscht</td>
+					<td>Anmerkungen</td>
+				</tr>
+			</tfoot>
+		</table>
+	</main>
+	<footer>
+		<a
+			class="secondary"
+			href="/privacy-policy">Datenschutzerklärung</a
+		>
+		<a
+			class="secondary"
+			href="/imprint">Impressum</a
+		>
+	</footer>
+</article>
+
+<style>
+	h1 {
+		text-align: center;
+	}
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+</style>
