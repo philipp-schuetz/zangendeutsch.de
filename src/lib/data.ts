@@ -71,7 +71,7 @@ export const dictionary = [
     },
     {
         original: "Microsoft",
-        translations: ["Kleinweich"],
+        translations: ["Winzigweich","Kleinweich"],
         comment: ""
     },
     {
