@@ -14,11 +14,11 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$SSH_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+          ssh-keyscan -t rsa zangendeutsch.de >> ~/.ssh/known_hosts
 
       - name: SSH into server, pull changes, and build container
         run: |
-          ssh "$SSH_USERNAME"@zangendeutsch.de "cd /home/"$SSH_USERNAME"/zangendeutsch.de && git pull && docker compose up --build -d"
+          ssh -v "$SSH_USERNAME"@zangendeutsch.de "cd /home/"$SSH_USERNAME"/zangendeutsch.de && git pull && docker compose up --build -d"
         env:
           SSH_KEY: ${{ secrets.ZD_SSH_KEY }}
           SSH_USERNAME: ${{ secrets.ZD_USER }}
