@@ -9,12 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up SSH key
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$SSH_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -t rsa zangendeutsch.de >> ~/.ssh/known_hosts
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.ZD_SSH_KEY }}
+          name: id_rsa
+          known_hosts: ${{ secrets.ZD_KNOWN_HOSTS }}
+          if_key_exists: fail
 
       - name: SSH into server, pull changes, and build container
         run: |
