@@ -583,5 +583,85 @@ export const dictionary = [
         original: "Greenpeace",
         translations: ["Grinserbsen", "Grünstück"],
         comment: ""
+    },
+    {
+        original: "Punk",
+        translations: ["Faulendes Holz"],
+        comment: ""
+    },
+    {
+        original: "Rock Music",
+        translations: ["Felsenmusik"],
+        comment: ""
+    },
+    {
+        original: "Heavy Metal Music",
+        translations: ["Schwermetallmusik"],
+        comment: ""
+    },
+    {
+        original: "Flair",
+        translations: ["Gespür"],
+        comment: "Reddit/Lemmy"
+    },
+    {
+        original: "Tracking Cookie",
+        translations: ["Verfolgungskeks"],
+        comment: "Reddit/Lemmy"
+    },
+    {
+        original: "Rickroll",
+        translations: ["Rollender Richard"],
+        comment: "Reddit/Lemmy"
+    },
+    {
+        original: "Chad",
+        translations: ["Rechner Konfetti"],
+        comment: "siehe 'punched card chad'"
+    },
+    {
+        original: "Libre Office",
+        translations: ["Frei Büro"],
+        comment: ""
+    },
+    {
+        original: "Mematic",
+        translations: ["MaiMaiTisch"],
+        comment: ""
+    },
+    {
+        original: "Imgflip",
+        translations: ["BildSchnips"],
+        comment: ""
+    },
+    {
+        original: "Archuser",
+        translations: ["Bogennutzer"],
+        comment: "Nutzer des Betriebssystems"
+    },
+    {
+        original: "Bloatware",
+        translations: ["Blähungsware"],
+        comment: ""
+    },
+    {
+        original: "Microsoft Word",
+        translations: ["Winzigweich Wort"],
+        comment: ""
+    },
+    {
+        original: "Microsoft Excel",
+        translations: ["Winzigweich Beschleunige"],
+        comment: ""
+    },
+    {
+        original: "Microsoft Powerpoint",
+        translations: ["Winzigweich Kraftpunkt"],
+        comment: ""
+    },
+    {
+        original: "Microsoft Outlook",
+        translations: ["Winzigweich Aussicht"],
+        comment: ""
     }
 ]
