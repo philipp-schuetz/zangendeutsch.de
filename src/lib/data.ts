@@ -336,7 +336,7 @@ export const dictionary = [
     },
     {
         original: "dank",
-        translations: ["feucht"],
+        translations: ["muffig"],
         comment: "bei Maimais"
     },
     {
