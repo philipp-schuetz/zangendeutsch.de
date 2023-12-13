@@ -471,7 +471,7 @@ export const dictionary = [
     },
     {
         original: "Update",
-        translations: ["Hochdatum", "Hochdattel"],
+        translations: ["Aufdatum", "Hochdatum", "Hochdattel"],
         comment: ""
     },
     {
