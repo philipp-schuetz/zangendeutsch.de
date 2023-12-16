@@ -5,13 +5,15 @@ export interface Word {
     translations: string[];
     comment: string;
 }
-
 function like(word: string, wordToCheck: string): boolean {
-    if (word.startsWith(wordToCheck)) {
-        return true;
-    } else {
-        return false;
+    const words = word.split(' ');
+
+    for (const singleWord of words) {
+        if (singleWord.startsWith(wordToCheck)) {
+            return true;
+        }
     }
+    return false;
 }
 
 export function queryOriginalTranslations(query: string): Word[] {
