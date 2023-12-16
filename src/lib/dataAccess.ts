@@ -1,4 +1,4 @@
-import { dictionary } from '$lib/data'
+import { dictionary } from '$lib/data';
 
 export interface Word {
     original: string;
@@ -25,11 +25,9 @@ export function queryOriginalTranslations(query: string): Word[] {
         like(entry.original.toLowerCase(), query) ||
         entry.translations.some(translation => like(translation.toLowerCase(), query))
     );
-    const sortedEntries = entries.sort((a, b) => a.original.localeCompare(b.original));
-    return sortedEntries;
+    return entries.sort((a, b) => a.original.localeCompare(b.original));
 }
 
 export function getAll(): Word[] {
-    const sortedDictionary = dictionary.sort((a, b) => a.original.localeCompare(b.original));
-    return sortedDictionary;
-};
+    return dictionary.sort((a, b) => a.original.localeCompare(b.original));
+}
