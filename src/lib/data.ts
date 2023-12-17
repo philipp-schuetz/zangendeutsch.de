@@ -236,7 +236,7 @@ export const dictionary = [
     },
     {
         original: "Plot Twist",
-        translations: ["Handlungszwirbler"],
+        translations: ["Grundstückszwirbler", "Handlungszwirbler"],
         comment: ""
     },
     {
