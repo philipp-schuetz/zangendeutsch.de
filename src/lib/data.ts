@@ -236,7 +236,7 @@ export const dictionary = [
     },
     {
         original: "Plot Twist",
-        translations: ["Handlungszwirbler"],
+        translations: ["Grundstückszwirbler", "Handlungszwirbler"],
         comment: ""
     },
     {
@@ -663,5 +663,30 @@ export const dictionary = [
         original: "Microsoft Outlook",
         translations: ["Winzigweich Aussicht"],
         comment: ""
+    },
+    {
+        original: "LED",
+        translations: ["LAZ"],
+        comment: "Light Emitting Diode -> Licht Aussendende Zweiwege"
+    },
+    {
+        original: "bookshelf",
+        translations: ["Buchungsbrett"],
+        comment: ""
+    },
+    {
+        original: "bluetooth",
+        translations: ["Blauzahn"],
+        comment: ""
+    },
+    {
+        original: "hilarious",
+        translations: ["hilarisch"],
+        comment: ""
+    },
+    {
+        original: "John Deer",
+        translations: ["Johann Reh"],
+        comment: "Hersteller von Landwirtschaftsmaschinen"
     }
 ]
