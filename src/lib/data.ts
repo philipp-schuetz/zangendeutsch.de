@@ -688,5 +688,40 @@ export const dictionary = [
         original: "John Deer",
         translations: ["Johann Reh"],
         comment: "Hersteller von Landwirtschaftsmaschinen"
+    },
+    {
+        original: "edit",
+        translations: ["Edith"],
+        comment: "bei editierten Kommentaren"
+    },
+    {
+        original: "early access",
+        translations: ["früher Zugriff"],
+        comment: ""
+    },
+    {
+        original: "duckduckgo",
+        translations: ["enteentegeh"],
+        comment: ""
+    },
+    {
+        original: "PayPal",
+        translations: ["Bezahlkumpel"],
+        comment: ""
+    },
+    {
+        original: "Steam Deck",
+        translations: ["Dampf Terrasse"],
+        comment: ""
+    },
+    {
+        original: "Pi-hole",
+        translations: ["Kuchenloch"],
+        comment: "pi-hole.net"
+    },
+    {
+        original: "Hackerman",
+        translations: ["Zentauer"],
+        comment: "hack = Pferd"
     }
 ]
