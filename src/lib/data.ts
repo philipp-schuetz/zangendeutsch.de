@@ -708,5 +708,20 @@ export const dictionary = [
         original: "PayPal",
         translations: ["Bezahlkumpel"],
         comment: ""
+    },
+    {
+        original: "Steam Deck",
+        translations: ["Dampf Terrasse"],
+        comment: ""
+    },
+    {
+        original: "Pi-hole",
+        translations: ["Kuchenloch"],
+        comment: "pi-hole.net"
+    },
+    {
+        original: "Hackerman",
+        translations: ["Zentauer"],
+        comment: "hack = Pferd"
     }
 ]
