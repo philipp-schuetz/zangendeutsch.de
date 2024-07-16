@@ -34,7 +34,7 @@
 </script>
 
 <svelte:head>
-	<title>zangendeutsch.de - Zuhause</title>
+	<title>zangendeutsch.de - Zangendeutsch Wörterbuch</title>
 	<meta
 		name="description"
 		content="Zangendeutsch Wörterbuch"
@@ -57,7 +57,7 @@
 			<thead>
 				<tr>
 					<th scope="col">Angelsächsisch</th>
-					<th scope="col">Eingedeutscht</th>
+					<th scope="col">Zangendeutsch</th>
 					<th scope="col">Anmerkungen</th>
 				</tr>
 			</thead>
