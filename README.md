@@ -1,5 +1,5 @@
 # zangendeutsch.de
-Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangendeutsch-woerterbuch-erklaerung-bedeutung/), inspiriert duch [r/ich_iel](https://old.reddit.com/r/ich_iel/) auf Reddit und [c/ich_iel](https://feddit.de/c/ich_iel) im Fediverse.
+Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangendeutsch-woerterbuch-erklaerung-bedeutung/), inspiriert duch [r/ich_iel](https://old.reddit.com/r/ich_iel/) auf Reddit und [c/ich_iel (alt)](https://feddit.de/c/ich_iel) bzw. [c/ich_iel (neu)](https://feddit.org/c/ich_iel) im Fediverse.
 
 ## Mitmachen
 ### Wörter eintragen
