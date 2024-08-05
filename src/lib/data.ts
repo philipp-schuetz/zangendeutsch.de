@@ -6,7 +6,7 @@ export const dictionary = [
     },
     {
         original: "Facebook",
-        translations: ["Gesichtsbuch"],
+        translations: ["Gesichtsbuch", "Fratzenbuch"],
         comment: ""
     },
     {
@@ -21,7 +21,7 @@ export const dictionary = [
     },
     {
         original: "internet",
-        translations: ["Zwischennetz"],
+        translations: ["Zwischennetz", "Zwischengewebe"],
         comment: ""
     },
     {
@@ -55,7 +55,7 @@ export const dictionary = [
         comment: ""
     },
     {
-        original: "Freddy Mercury",
+        original: "Freddie Mercury",
         translations: ["Friedrich Quecksilber"],
         comment: ""
     },
@@ -76,7 +76,7 @@ export const dictionary = [
     },
     {
         original: "Playstation",
-        translations: ["Spiel Station"],
+        translations: ["Spielstation"],
         comment: ""
     },
     {
@@ -86,7 +86,7 @@ export const dictionary = [
     },
     {
         original: "Scarlett Johansson",
-        translations: ["Närbchen Johannsspross"],
+        translations: ["Närbchen Johannsspross", "Charlotte Johannssohn"],
         comment: ""
     },
     {
@@ -101,12 +101,12 @@ export const dictionary = [
     },
     {
         original: "WhatsApp",
-        translations: ["WasApplikation"],
+        translations: ["WasApplikation", "WasAnwendung"],
         comment: ""
     },
     {
         original: "XBox",
-        translations: ["XKiste"],
+        translations: ["XKiste", "XBüchse"],
         comment: ""
     },
     {
@@ -406,7 +406,7 @@ export const dictionary = [
     },
     {
         original: "Emoji",
-        translations: ["Setzerscherz"],
+        translations: ["Setzerscherz", "Gefühli"],
         comment: "Aus dem Altdeutschen"
     },
     {
@@ -476,8 +476,8 @@ export const dictionary = [
     },
     {
         original: "NSFW",
-        translations: ["NSFDA"],
-        comment: "Not safe for work -> Nicht sicher für die Arbeit"
+        translations: ["NSFA", "NSFW"],
+        comment: "Not safe for work -> Nicht sicher fürs Arbeiten/Werken"
     },
     {
         original: "NNN",
@@ -536,7 +536,7 @@ export const dictionary = [
     },
     {
         original: "Server",
-        translations: ["Bediener", "Kellner"],
+        translations: ["Bediener", "Kellner", "Servierer"],
         comment: ""
     },
     {
@@ -571,7 +571,7 @@ export const dictionary = [
     },
     {
         original: "Sandwich",
-        translations: ["Sandhexe"],
+        translations: ["Sandhexe", "Stulle"],
         comment: ""
     },
     {
@@ -612,7 +612,7 @@ export const dictionary = [
     {
         original: "Rickroll",
         translations: ["Rollender Richard"],
-        comment: "Reddit/Lemmy"
+        comment: ""
     },
     {
         original: "Chad",
@@ -723,5 +723,1470 @@ export const dictionary = [
         original: "Hackerman",
         translations: ["Zentauer"],
         comment: "hack = Pferd"
+    },
+    {
+        original: "fuck around and find out",
+        translations: ["geschlechtsverkehre herum und finde heraus"],
+        comment: ""
+    },
+    {
+        original: "Shitpost",
+        translations: ["Scheißepfosten"],
+        comment: ""
+    },
+    {
+        original: "Smartphone",
+        translations: ["Schlaufon", "Klugschnurlostelefon"],
+        comment: ""
+    },
+    {
+        original: "Laptop",
+        translations: ["Schoßoben", "Klapprechner"],
+        comment: ""
+    },
+    {
+        original: "Sweater",
+        translations: ["Schwitzer"],
+        comment: ""
+    },
+    {
+        original: "Pullover",
+        translations: ["Überschwupper", "Ziehüber"],
+        comment: ""
+    },
+    {
+        original: "Spoiler",
+        translations: ["Windleitblech", "Luftablenkflügel"],
+        comment: ""
+    },
+    {
+        original: "spoilern",
+        translations: ["windleitblechen", "luftablenkflügelnd"],
+        comment: ""
+    },
+    {
+        original: "to flex",
+        translations: ["winkelschleifen"],
+        comment: ""
+    },
+    {
+        original: "WTF",
+        translations: ["WzG"],
+        comment: "what the fuck -> Was zum Geschlechtsverkehr"
+    },
+    {
+        original: "Crush",
+        translations: ["Zerquetscher"],
+        comment: ""
+    },
+    {
+        original: "Backup",
+        translations: ["Rückhoch"],
+        comment: ""
+    },
+    {
+        original: "Backstage",
+        translations: ["Zurückbühne"],
+        comment: ""
+    },
+    {
+        original: "Basejumper",
+        translations: ["Sockelspringer"],
+        comment: ""
+    },
+    {
+        original: "Beachvolleyball",
+        translations: ["Strandhagelball"],
+        comment: ""
+    },
+    {
+        original: "Bed and breakfast",
+        translations: ["Bett- und Brechfest"],
+        comment: ""
+    },
+    {
+        original: "Benchmark",
+        translations: ["Sitzbankmarkierung"],
+        comment: ""
+    },
+    {
+        original: "Black-Jack",
+        translations: ["Schwarzer Jakob"],
+        comment: ""
+    },
+    {
+        original: "Bootcamp",
+        translations: ["Stiefelzeltlager"],
+        comment: ""
+    },
+    {
+        original: "booten",
+        translations: ["stiefeln"],
+        comment: ""
+    },
+    {
+        original: "Boygroup",
+        translations: ["Bubengruppierung"],
+        comment: ""
+    },
+    {
+        original: "Brainstorming",
+        translations: ["Gehirnstürmen"],
+        comment: ""
+    },
+    {
+        original: "Browser",
+        translations: ["Brauser", "Duscher"],
+        comment: ""
+    },
+    {
+        original: "Bulldozer",
+        translations: ["Stierschlummer"],
+        comment: ""
+    },
+    {
+        original: "Burnout",
+        translations: ["Brennaus"],
+        comment: ""
+    },
+    {
+        original: "Breakdance",
+        translations: ["Bruchtanz"],
+        comment: ""
+    },
+    {
+        original: "Callgirl",
+        translations: ["Anrufbare Dirne"],
+        comment: ""
+    },
+    {
+        original: "CD",
+        translations: ["KS"],
+        comment: "Compact Disc -> Kompaktscheibe"
+    },
+    {
+        original: "Chatroom",
+        translations: ["Schnatterraum"],
+        comment: ""
+    },
+    {
+        original: "chatten",
+        translations: ["schnattern"],
+        comment: ""
+    },
+    {
+        original: "Cheerleader",
+        translations: ["Jubelführer"],
+        comment: ""
+    },
+    {
+        original: "Cornflakes",
+        translations: ["Kornflocken"],
+        comment: ""
+    },
+    {
+        original: "Cosplay",
+        translations: ["Kotzspiel"],
+        comment: ""
+    },
+    {
+        original: "Cowboy",
+        translations: ["Kuhbub"],
+        comment: ""
+    },
+    {
+        original: "Counterstrike",
+        translations: ["Gegenschlag"],
+        comment: "Computerspiel"
+    },
+    {
+        original: "Creepypasta",
+        translations: ["Gruselige Nudeln"],
+        comment: ""
+    },
+    {
+        original: "Crystal-Meth",
+        translations: ["Kristall-Mett"],
+        comment: ""
+    },
+    {
+        original: "Deadline",
+        translations: ["Todeslinie"],
+        comment: ""
+    },
+    {
+        original: "Death Metal",
+        translations: ["Todesmetall"],
+        comment: ""
+    },
+    {
+        original: "Designer",
+        translations: ["Schöpfer", "Gestalter"],
+        comment: ""
+    },
+    {
+        original: "Digicam",
+        translations: ["Nullundeinskamera"],
+        comment: ""
+    },
+    {
+        original: "Disc Jockey",
+        translations: ["Platten-Rennreiter"],
+        comment: ""
+    },
+    {
+        original: "Discman",
+        translations: ["Diskettenmann"],
+        comment: ""
+    },
+    {
+        original: "DIY",
+        translations: ["MES"],
+        comment: "Do-it-yourself -> Mach es selbst"
+    },
+    {
+        original: "Download",
+        translations: ["Herablad"],
+        comment: ""
+    },
+    {
+        original: "downloaden",
+        translations: ["herabladen"],
+        comment: ""
+    },
+    {
+        original: "Dupstep",
+        translations: ["Deppenschritt"],
+        comment: ""
+    },
+    {
+        original: "DVD",
+        translations: ["DVS"],
+        comment: "digital versatile disc -> Digitale vielseitige Scheibe"
+    },
+    {
+        original: "Energydrink",
+        translations: ["Energietrunk"],
+        comment: ""
+    },
+    {
+        original: "E-Book",
+        translations: ["Elektrobuch"],
+        comment: ""
+    },
+    {
+        original: "E-Mail",
+        translations: ["E-Brief"],
+        comment: ""
+    },
+    {
+        original: "Faker",
+        translations: ["Fakir"],
+        comment: ""
+    },
+    {
+        original: "Fanclub",
+        translations: ["Ventilatorverein"],
+        comment: ""
+    },
+    {
+        original: "Fanmeile",
+        translations: ["Ventilatorenkilometer"],
+        comment: ""
+    },
+    {
+        original: "Fanshop",
+        translations: ["Ventilatorgeschäft"],
+        comment: ""
+    },
+    {
+        original: "FAQ",
+        translations: ["HGF"],
+        comment: "Frequently asked Questions -> Häufig gestellte Fragen"
+    },
+    {
+        original: "Firewall",
+        translations: ["Feuerwand"],
+        comment: ""
+    },
+    {
+        original: "Flashback",
+        translations: ["Rückblitz"],
+        comment: ""
+    },
+    {
+        original: "Flashplayer",
+        translations: ["Blitzspieler"],
+        comment: ""
+    },
+    {
+        original: "Flatrate",
+        translations: ["Flachratte"],
+        comment: ""
+    },
+    {
+        original: "Flip-Flop",
+        translations: ["Ruckartiges Versagen"],
+        comment: ""
+    },
+    {
+        original: "Follower",
+        translations: ["Folger"],
+        comment: ""
+    },
+    {
+        original: "Foxtrott",
+        translations: ["Fuchstritt"],
+        comment: ""
+    },
+    {
+        original: "Freeware",
+        translations: ["(zoll)freie Ware"],
+        comment: ""
+    },
+    {
+        original: "Frisbee",
+        translations: ["Bienenesser"],
+        comment: ""
+    },
+    {
+        original: "Gangnam-Style",
+        translations: ["Flußsüden-Stil"],
+        comment: ""
+    },
+    {
+        original: "Gangster",
+        translations: ["Schurke"],
+        comment: ""
+    },
+    {
+        original: "Ghostwriter",
+        translations: ["Geisterschreiber"],
+        comment: ""
+    },
+    {
+        original: "Girlgroup",
+        translations: ["Mädelgruppierung"],
+        comment: ""
+    },
+    {
+        original: "Halfpipe",
+        translations: ["Halbrohr"],
+        comment: ""
+    },
+    {
+        original: "Halloween",
+        translations: ["Grüß Gott Wien"],
+        comment: ""
+    },
+    {
+        original: "Hamburger",
+        translations: ["Hackfleischweichbrötchen"],
+        comment: ""
+    },
+    {
+        original: "Happy Hour",
+        translations: ["Glücklichstunde"],
+        comment: ""
+    },
+    {
+        original: "Hardcore",
+        translations: ["Hartkern"],
+        comment: ""
+    },
+    {
+        original: "Hardware",
+        translations: ["Hartware"],
+        comment: ""
+    },
+    {
+        original: "Highway",
+        translations: ["Hochweg"],
+        comment: ""
+    },
+    {
+        original: "Highway to hell ",
+        translations: ["Hochweg zur Hölle"],
+        comment: ""
+    },
+    {
+        original: "Hip Hop",
+        translations: ["Hipf Hüpf"],
+        comment: ""
+    },
+    {
+        original: "Hobbit",
+        translations: ["kleinwüchsiger Heide"],
+        comment: ""
+    },
+    {
+        original: "Hollywood",
+        translations: ["Stechpalmenwald"],
+        comment: ""
+    },
+    {
+        original: "Homepage",
+        translations: ["Heimseite"],
+        comment: ""
+    },
+    {
+        original: "Honeymoon",
+        translations: ["Honigmond"],
+        comment: ""
+    },
+    {
+        original: "Hot Pants",
+        translations: ["Heißhosen"],
+        comment: ""
+    },
+    {
+        original: "Hotdog",
+        translations: ["Heißhund"],
+        comment: ""
+    },
+    {
+        original: "Inlineskater",
+        translations: ["Innenliniefahrer"],
+        comment: ""
+    },
+    {
+        original: "Insider",
+        translations: ["Innenseiter"],
+        comment: ""
+    },
+    {
+        original: "Interview",
+        translations: ["Zwischenschau"],
+        comment: ""
+    },
+    {
+        original: "Jeans",
+        translations: ["Baumwollhose"],
+        comment: ""
+    },
+    {
+        original: "jobben",
+        translations: ["Arbeit schleißig verrichten"],
+        comment: ""
+    },
+    {
+        original: "Joystick",
+        translations: ["Freudenstab"],
+        comment: ""
+    },
+    {
+        original: "Floppy Disk",
+        translations: ["Schlabberscheibe"],
+        comment: ""
+    },
+    {
+        original: "Junkfood",
+        translations: ["Wegwerfessen"],
+        comment: ""
+    },
+    {
+        original: "Junkmail",
+        translations: ["elektrischer Wegwerfbrief"],
+        comment: ""
+    },
+    {
+        original: "Keyboard",
+        translations: ["Tastenbrett"],
+        comment: ""
+    },
+    {
+        original: "kickboxen",
+        translations: ["tretschlagen"],
+        comment: ""
+    },
+    {
+        original: "Kickboxer",
+        translations: ["Tretschläger"],
+        comment: ""
+    },
+    {
+        original: "Ladykiller",
+        translations: ["Frauenmörder"],
+        comment: ""
+    },
+    {
+        original: "LAN",
+        translations: ["ÖGN"],
+        comment: "local area network -> Örtliches Gebietsnetzwerk"
+    },
+    {
+        original: "LAN-Party",
+        translations: ["ÖGN-Fest"],
+        comment: ""
+    },
+    {
+        original: "Laser",
+        translations: ["Bündellicht"],
+        comment: ""
+    },
+    {
+        original: "Laserdisc",
+        translations: ["Bündellichtdiskette"],
+        comment: ""
+    },
+    {
+        original: "Laserpointer",
+        translations: ["Bündellichtpunkter"],
+        comment: ""
+    },
+    {
+        original: "LOL",
+        translations: ["LAL"],
+        comment: "laughing out loud -> laut auslachen"
+    },
+    {
+        original: "Lookalike",
+        translations: ["Schauauswie"],
+        comment: ""
+    },
+    {
+        original: "Super Mario",
+        translations: ["Töfter Marius"],
+        comment: ""
+    },
+    {
+        original: "Magic Mushrooms",
+        translations: ["Magische Pilze"],
+        comment: ""
+    },
+    {
+        original: "Mainboard",
+        translations: ["Hauptbrett"],
+        comment: ""
+    },
+    {
+        original: "Mainstream",
+        translations: ["Hauptstrom"],
+        comment: ""
+    },
+    {
+        original: "Make-Up",
+        translations: ["Mach-Auf"],
+        comment: ""
+    },
+    {
+        original: "Marshmallow",
+        translations: ["Marschmelone"],
+        comment: ""
+    },
+    {
+        original: "mobben",
+        translations: ["hänseln"],
+        comment: ""
+    },
+    {
+        original: "Mobbing",
+        translations: ["Hänselei"],
+        comment: ""
+    },
+    {
+        original: "Moonboots",
+        translations: ["Mondstiefel"],
+        comment: ""
+    },
+    {
+        original: "Motherboard",
+        translations: ["Mutterbrett"],
+        comment: ""
+    },
+    {
+        original: "Mountainbike",
+        translations: ["Bergfahrrad"],
+        comment: ""
+    },
+    {
+        original: "Nerd",
+        translations: ["Heimrechnerdepp"],
+        comment: ""
+    },
+    {
+        original: "Nightliner",
+        translations: ["Nachtstricher"],
+        comment: ""
+    },
+    {
+        original: "No-Name-Produkt",
+        translations: ["namenlose Ware"],
+        comment: ""
+    },
+    {
+        original: "Noob",
+        translations: ["Neuling", "Anfänger"],
+        comment: ""
+    },
+    {
+        original: "Oldie",
+        translations: ["Altie"],
+        comment: ""
+    },
+    {
+        original: "Oldtimer",
+        translations: ["Altzeiter"],
+        comment: ""
+    },
+    {
+        original: "On-the-Rocks",
+        translations: ["Auf den Felsen"],
+        comment: ""
+    },
+    {
+        original: "online",
+        translations: ["anschnur"],
+        comment: ""
+    },
+    {
+        original: "offline",
+        translations: ["abschnur"],
+        comment: ""
+    },
+    {
+        original: "Open Office",
+        translations: ["Offenes Büro"],
+        comment: ""
+    },
+    {
+        original: "Libre Office",
+        translations: ["Freies Büro"],
+        comment: ""
+    },
+    {
+        original: "Outback",
+        translations: ["Ausbacken"],
+        comment: ""
+    },
+    {
+        original: "Park-and-Ride",
+        translations: ["Parken und Reiten"],
+        comment: ""
+    },
+    {
+        original: "Party",
+        translations: ["Feier"],
+        comment: ""
+    },
+    {
+        original: "Patchwork",
+        translations: ["Flickarbeit"],
+        comment: ""
+    },
+    {
+        original: "Pitbull",
+        translations: ["Grubenstier"],
+        comment: ""
+    },
+    {
+        original: "Pony",
+        translations: ["Kleinpferd"],
+        comment: ""
+    },
+    {
+        original: "Popstar",
+        translations: ["Knallstern"],
+        comment: ""
+    },
+    {
+        original: "Pullunder",
+        translations: ["Ziehunter"],
+        comment: ""
+    },
+    {
+        original: "Quarterback",
+        translations: ["Viertelzurück"],
+        comment: ""
+    },
+    {
+        original: "Quickstep",
+        translations: ["Schnellschritt"],
+        comment: ""
+    },
+    {
+        original: "Rapper",
+        translations: ["Sprechsänger", "Sprachgestörter"],
+        comment: ""
+    },
+    {
+        original: "Reality-Soap",
+        translations: ["Realitätsseife"],
+        comment: ""
+    },
+    {
+        original: "Recycling",
+        translations: ["Zurückradeln"],
+        comment: ""
+    },
+    {
+        original: "Rocker",
+        translations: ["Felser"],
+        comment: ""
+    },
+    {
+        original: "Rockstar",
+        translations: ["Felsstern"],
+        comment: ""
+    },
+    {
+        original: "Running Gag",
+        translations: ["Rennwitz"],
+        comment: ""
+    },
+    {
+        original: "Selfie",
+        translations: ["Selbstie"],
+        comment: ""
+    },
+    {
+        original: "Selfiestick",
+        translations: ["Vollpfostenantenne"],
+        comment: ""
+    },
+    {
+        original: "Shit happens",
+        translations: ["Stuhlgang passiert"],
+        comment: ""
+    },
+    {
+        original: "Shitstorm",
+        translations: ["Fäkaliensturm"],
+        comment: ""
+    },
+    {
+        original: "Shopping Queen",
+        translations: ["Einkaufskönigin"],
+        comment: ""
+    },
+    {
+        original: "Showgirl",
+        translations: ["zeigefreudiges Mädchen"],
+        comment: ""
+    },
+    {
+        original: "Showmaster",
+        translations: ["Schaumeister"],
+        comment: ""
+    },
+    {
+        original: "Shuffleboard",
+        translations: ["Mischbrett"],
+        comment: ""
+    },
+    {
+        original: "Skateboard",
+        translations: ["Rollbrett"],
+        comment: ""
+    },
+    {
+        original: "Skinhead",
+        translations: ["Hautkopf"],
+        comment: ""
+    },
+    {
+        original: "Slumdog",
+        translations: ["Schlammhund"],
+        comment: ""
+    },
+    {
+        original: "Snowboard",
+        translations: ["Schnettbrett"],
+        comment: ""
+    },
+    {
+        original: "Soundcheck",
+        translations: ["Geräuschüberprüfung"],
+        comment: ""
+    },
+    {
+        original: "Soundkarte",
+        translations: ["Tonkarte"],
+        comment: ""
+    },
+    {
+        original: "Spam",
+        translations: ["Dosenfleisch"],
+        comment: ""
+    },
+    {
+        original: "spammen",
+        translations: ["dosenfleischen"],
+        comment: ""
+    },
+    {
+        original: "Speed",
+        translations: ["Geschwindigkeit"],
+        comment: ""
+    },
+    {
+        original: "streamen",
+        translations: ["strömen"],
+        comment: ""
+    },
+    {
+        original: "Supermarkt",
+        translations: ["Töfter Markt", "Töftemarkt"],
+        comment: ""
+    },
+    {
+        original: "Superstar",
+        translations: ["Töfter Stern"],
+        comment: ""
+    },
+    {
+        original: "Surfer",
+        translations: ["Stehsegler"],
+        comment: ""
+    },
+    {
+        original: "surfen",
+        translations: ["stehsegeln"],
+        comment: ""
+    },
+    {
+        original: "Tablet-PC",
+        translations: ["Medikamenten-Heimrechner"],
+        comment: ""
+    },
+    {
+        original: "Techno",
+        translations: ["Technein", "Technische Krawallmusik"],
+        comment: ""
+    },
+    {
+        original: "Teenager",
+        translations: ["dummer Bub", "dämliche Göre"],
+        comment: ""
+    },
+    {
+        original: "Toolbar",
+        translations: ["Werkzeugbalken"],
+        comment: ""
+    },
+    {
+        original: "Touchscreen",
+        translations: ["Berührungsschirm"],
+        comment: ""
+    },
+    {
+        original: "Underdog",
+        translations: ["Unterhund"],
+        comment: ""
+    },
+    {
+        original: "Webcam",
+        translations: ["Gewebekamera", "Netzkamera"],
+        comment: ""
+    },
+    {
+        original: "Webmaster",
+        translations: ["Gewebemeister"],
+        comment: ""
+    },
+    {
+        original: "Webshop",
+        translations: ["Gewebegeschäft"],
+        comment: ""
+    },
+    {
+        original: "Website",
+        translations: ["Gewebeseite"],
+        comment: ""
+    },
+    {
+        original: "Webspace",
+        translations: ["Gewebeplatz"],
+        comment: ""
+    },
+    {
+        original: "WLAN",
+        translations: ["KÖGN"],
+        comment: "wireless local area network -> kabelloses örtliches Gebietsnetzwerk"
+    },
+    {
+        original: "World Cup",
+        translations: ["Welttasse"],
+        comment: ""
+    },
+    {
+        original: "World Wide Web",
+        translations: ["Weltweites Gewebenetz"],
+        comment: ""
+    },
+    {
+        original: "Workshop",
+        translations: ["Arbeitsgeschäft"],
+        comment: ""
+    },
+    {
+        original: "Worst-Case-Szenario",
+        translations: ["Wurst-Käse-Szenario"],
+        comment: ""
+    },
+    {
+        original: "Yellow Press",
+        translations: ["Gelbe Presse"],
+        comment: ""
+    },
+    {
+        original: "Yahoo",
+        translations: ["Juhuu"],
+        comment: ""
+    },
+    {
+        original: "Youngster",
+        translations: ["unfähiger Neuling"],
+        comment: ""
+    },
+    {
+        original: "Youngtimer",
+        translations: ["Jungzeiter"],
+        comment: ""
+    },
+    {
+        original: "Zorbing",
+        translations: ["Großballrollen"],
+        comment: ""
+    },
+    {
+        original: "TikTok",
+        translations: ["KlopfKlopf"],
+        comment: ""
+    },
+    {
+        original: "Aerosmith",
+        translations: ["Luftschmied"],
+        comment: ""
+    },
+    {
+        original: "American Dad",
+        translations: ["Amerikanischer Vater"],
+        comment: ""
+    },
+    {
+        original: "American Football",
+        translations: ["Amerikanischer Fußball"],
+        comment: ""
+    },
+    {
+        original: "Amy Winehouse",
+        translations: ["Amalia Weinhaus"],
+        comment: ""
+    },
+    {
+        original: "Angry Birds",
+        translations: ["Zornige Vögel"],
+        comment: ""
+    },
+    {
+        original: "Anjelica Huston",
+        translations: ["Angelika Husten"],
+        comment: ""
+    },
+    {
+        original: "Anne Hathaway",
+        translations: ["Anna Hutweg"],
+        comment: ""
+    },
+    {
+        original: "Anthony Hopkins",
+        translations: ["Anton Hüpfkinn"],
+        comment: ""
+    },
+    {
+        original: "Apple",
+        translations: ["Apfel"],
+        comment: ""
+    },
+    {
+        original: "Barbra Streisand",
+        translations: ["Barbara Streusand"],
+        comment: ""
+    },
+    {
+        original: "Battlefield 4",
+        translations: ["Schlachtfeld 4"],
+        comment: ""
+    },
+    {
+        original: "Bill Gates",
+        translations: ["Rechnung Tore"],
+        comment: ""
+    },
+    {
+        original: "Billy the Kid",
+        translations: ["Rechnung das Kind"],
+        comment: ""
+    },
+    {
+        original: "Britney Spears",
+        translations: ["Brigitte Speere"],
+        comment: ""
+    },
+    {
+        original: "Bruce Willis",
+        translations: ["Brunzer Wilhelm"],
+        comment: ""
+    },
+    {
+        original: "Bugs Bunny",
+        translations: ["Käferhase"],
+        comment: ""
+    },
+    {
+        original: "Cat Stevens",
+        translations: ["Katze Stefans"],
+        comment: ""
+    },
+    {
+        original: "Charlie Sheen",
+        translations: ["Karl Schimmer"],
+        comment: ""
+    },
+    {
+        original: "Checkpoint Charlie",
+        translations: ["Checkpoint Charlie"],
+        comment: ""
+    },
+    {
+        original: "CIA",
+        translations: ["ZIA"],
+        comment: "Central Intelligence Agency -> Zentrale Intelligenzagentur"
+    },
+    {
+        original: "Condoleezza Rice",
+        translations: ["Krondelgaut Reis"],
+        comment: ""
+    },
+    {
+        original: "David Beckham",
+        translations: ["David Beckenschinken"],
+        comment: ""
+    },
+    {
+        original: "David Hasselhoff",
+        translations: ["David Häßlichdoof"],
+        comment: ""
+    },
+    {
+        original: "Diabolo 3",
+        translations: ["Teufel 3"],
+        comment: "Computerspiel"
+    },
+    {
+        original: "Donald Trumpf",
+        translations: ["Donald Trump"],
+        comment: ""
+    },
+    {
+        original: "Echosmith",
+        translations: ["Schallreflexionsschmiede"],
+        comment: ""
+    },
+    {
+        original: "Elvis Presley",
+        translations: ["Elvis Preßwurst"],
+        comment: ""
+    },
+    {
+        original: "Family Guy",
+        translations: ["Familienkerl"],
+        comment: "US-Fernsehserie"
+    },
+    {
+        original: "FBI",
+        translations: ["BBE"],
+        comment: "Federal Bureau of Investigation -> Bundesbüro für Ermittlungen"
+    },
+    {
+        original: "Forest Whitaker",
+        translations: ["Waldo Weißnehmer"],
+        comment: ""
+    },
+    {
+        original: "Gameboy",
+        translations: ["Spieljunge"],
+        comment: ""
+    },
+    {
+        original: "George Walker Bush",
+        translations: ["Georg Geher Busch"],
+        comment: ""
+    },
+    {
+        original: "George Washington",
+        translations: ["Georg Waschtonne"],
+        comment: ""
+    },
+    {
+        original: "Google",
+        translations: ["Gockel"],
+        comment: ""
+    },
+    {
+        original: "googeln",
+        translations: ["gockeln"],
+        comment: ""
+    },
+    {
+        original: "Gronkh",
+        translations: ["Krank"],
+        comment: ""
+    },
+    {
+        original: "Hugh Jackman",
+        translations: ["Hugo Jackenmann"],
+        comment: ""
+    },
+    {
+        original: "Iggy Pop",
+        translations: ["Igor Knall"],
+        comment: ""
+    },
+    {
+        original: "iPad",
+        translations: ["ichBlock"],
+        comment: ""
+    },
+    {
+        original: "iPhone",
+        translations: ["ichTelefon"],
+        comment: ""
+    },
+    {
+        original: "iPod",
+        translations: ["ichPott"],
+        comment: ""
+    },
+    {
+        original: "iWatch",
+        translations: ["ichUhr"],
+        comment: ""
+    },
+    {
+        original: "Jack Nicholson",
+        translations: ["Jakob Nicolesohn"],
+        comment: ""
+    },
+    {
+        original: "James Bond",
+        translations: ["Jakob Anleihe"],
+        comment: ""
+    },
+    {
+        original: "Jeremy Irons",
+        translations: ["Jeremias Eisen"],
+        comment: ""
+    },
+    {
+        original: "John Bon Jovi",
+        translations: ["Johannes Bonner Joff"],
+        comment: ""
+    },
+    {
+        original: "John Fitzgerald Kennedy",
+        translations: ["Johann Filzgerald Kennichdich"],
+        comment: ""
+    },
+    {
+        original: "Johnny Cash",
+        translations: ["Johann Bargeld"],
+        comment: ""
+    },
+    {
+        original: "Johnny Depp",
+        translations: ["Johann Trottel"],
+        comment: ""
+    },
+    {
+        original: "Justin Bieber",
+        translations: ["Justus Bieber"],
+        comment: ""
+    },
+    {
+        original: "Kate Middleton",
+        translations: ["Katharina Mitteltonne"],
+        comment: ""
+    },
+    {
+        original: "Keira Knightley",
+        translations: ["Kira Ritterlich"],
+        comment: ""
+    },
+    {
+        original: "Lance Armstrong",
+        translations: ["Lanze Armstark"],
+        comment: ""
+    },
+    {
+        original: "Led Zeppelin",
+        translations: ["Licht aussendendes Zweiwegeluftschiff"],
+        comment: ""
+    },
+    {
+        original: "LeFloid",
+        translations: ["Flötenkind", "Die Flöte"],
+        comment: ""
+    },
+    {
+        original: "Lemmy Kilmister",
+        translations: ["Lemming Tötungsmeister"],
+        comment: ""
+    },
+    {
+        original: "Leonardo di Caprio",
+        translations: ["Leonhard das Kabrio"],
+        comment: ""
+    },
+    {
+        original: "Linus Torvalds",
+        translations: ["Linuchs Torwalds"],
+        comment: ""
+    },
+    {
+        original: "Linux",
+        translations: ["Linuchs"],
+        comment: ""
+    },
+    {
+        original: "Lord Abbadon",
+        translations: ["Lump Abfalltonn'"],
+        comment: ""
+    },
+    {
+        original: "Lord Voldemort",
+        translations: ["Herr Waldimord"],
+        comment: ""
+    },
+    {
+        original: "Marilyn Manson",
+        translations: ["Mirjam Mannsohn"],
+        comment: ""
+    },
+    {
+        original: "Mel Gibson",
+        translations: ["Melchior Gipssohn"],
+        comment: ""
+    },
+    {
+        original: "Michael Jackson",
+        translations: ["Michael Jackensohn"],
+        comment: ""
+    },
+    {
+        original: "Mick Jagger",
+        translations: ["Michael Jacker"],
+        comment: ""
+    },
+    {
+        original: "Minecraft",
+        translations: ["Minenhandwerk"],
+        comment: ""
+    },
+    {
+        original: "Morgan Freeman",
+        translations: ["Morgen Freimann"],
+        comment: ""
+    },
+    {
+        original: "Mr. Bean",
+        translations: ["Herr Bohne"],
+        comment: ""
+    },
+    {
+        original: "Myspace",
+        translations: ["Meinraum"],
+        comment: ""
+    },
+    {
+        original: "Nicolas Cage",
+        translations: ["Nikolaus Käfig"],
+        comment: ""
+    },
+    {
+        original: "Nicole Kidman",
+        translations: ["Nicole Kindmann"],
+        comment: ""
+    },
+    {
+        original: "Nintendo",
+        translations: ["Neunzehntun"],
+        comment: ""
+    },
+    {
+        original: "Owen Wilson",
+        translations: ["Eugen Wilsohn"],
+        comment: ""
+    },
+    {
+        original: "Ozzy Osbourne",
+        translations: ["Oswald Ostgießbach"],
+        comment: ""
+    },
+    {
+        original: "PewDiePie",
+        translations: ["PfuiStirbKuchen"],
+        comment: ""
+    },
+    {
+        original: "Photoshop",
+        translations: ["Photogeschäft"],
+        comment: ""
+    },
+    {
+        original: "Quentin Tarantino",
+        translations: ["Querulant Tarantel"],
+        comment: ""
+    },
+    {
+        original: "Robert De Niro",
+        translations: ["Robert die Niere"],
+        comment: ""
+    },
+    {
+        original: "Rolling Stones",
+        translations: ["Rollende Steine"],
+        comment: ""
+    },
+    {
+        original: "Russell Crowe",
+        translations: ["Rüssel Krähe"],
+        comment: ""
+    },
+    {
+        original: "Simpsons",
+        translations: ["Simpsöhne"],
+        comment: ""
+    },
+    {
+        original: "Skype",
+        translations: ["Himmelstift"],
+        comment: ""
+    },
+    {
+        original: "skypen",
+        translations: ["himmelstiften"],
+        comment: ""
+    },
+    {
+        original: "Slackline",
+        translations: ["Schleckleine"],
+        comment: ""
+    },
+    {
+        original: "South Park",
+        translations: ["Südpark"],
+        comment: ""
+    },
+    {
+        original: "Stephen Hawking",
+        translations: ["Stefan Haukönig"],
+        comment: ""
+    },
+    {
+        original: "Steve Jobs",
+        translations: ["Stefan Berufe"],
+        comment: ""
+    },
+    {
+        original: "Sylvester Stallone",
+        translations: ["Silvester Stalleins"],
+        comment: ""
+    },
+    {
+        original: "Ted Cruz",
+        translations: ["Theodor Kreuz"],
+        comment: ""
+    },
+    {
+        original: "Theodore Roosevelt",
+        translations: ["Theodor Rosenfeld"],
+        comment: ""
+    },
+    {
+        original: "Tom Cruise",
+        translations: ["Thomas Kreuzfahrt"],
+        comment: ""
+    },
+    {
+        original: "Tom Hanks",
+        translations: ["Thomas Strangs"],
+        comment: ""
+    },
+    {
+        original: "Tony Curtis",
+        translations: ["Anton Kurtisch"],
+        comment: ""
+    },
+    {
+        original: "USA",
+        translations: ["VSA"],
+        comment: "United States of America -> Vereinigte Staaten von Amerika"
+    },
+    {
+        original: "USB",
+        translations: ["USB"],
+        comment: "Universal Serial Bus -> Universeller Serienbus"
+    },
+    {
+        original: "Usher",
+        translations: ["Ascher"],
+        comment: ""
+    },
+    {
+        original: "Walkman",
+        translations: ["Gehman"],
+        comment: ""
+    },
+    {
+        original: "Wikipedia",
+        translations: ["Wikingerfüße"],
+        comment: ""
+    },
+    {
+        original: "Will Smith",
+        translations: ["Willibald Schmitt"],
+        comment: ""
+    },
+    {
+        original: "William Shakespeare",
+        translations: ["Wilhelm Schüttelspeer"],
+        comment: ""
+    },
+    {
+        original: "Windows",
+        translations: ["Fenster"],
+        comment: ""
+    },
+    {
+        original: "Winston Churchill",
+        translations: ["Gewinntonne Kirchenkrank"],
+        comment: ""
+    },
+    {
+        original: "World of Warcraft",
+        translations: ["Welt der Kriegskunst"],
+        comment: ""
+    },
+    {
+        original: "",
+        translations: [""],
+        comment: ""
+    },
+    {
+        original: "",
+        translations: [""],
+        comment: ""
+    },
+    {
+        original: "",
+        translations: [""],
+        comment: ""
+    },
+    {
+        original: "",
+        translations: [""],
+        comment: ""
     }
 ]
