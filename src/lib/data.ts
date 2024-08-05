@@ -2168,25 +2168,5 @@ export const dictionary = [
         original: "World of Warcraft",
         translations: ["Welt der Kriegskunst"],
         comment: ""
-    },
-    {
-        original: "",
-        translations: [""],
-        comment: ""
-    },
-    {
-        original: "",
-        translations: [""],
-        comment: ""
-    },
-    {
-        original: "",
-        translations: [""],
-        comment: ""
-    },
-    {
-        original: "",
-        translations: [""],
-        comment: ""
     }
 ]
