@@ -2168,5 +2168,25 @@ export const dictionary = [
         original: "World of Warcraft",
         translations: ["Welt der Kriegskunst"],
         comment: ""
+    },
+    {
+        original: "Feedback",
+        translations: ["Rückfutter"],
+        comment: ""
+    },
+    {
+        original: "git",
+        translations: ["Depp"],
+        comment: "Programm zur Versionsverwaltung"
+    },
+    {
+        original: "GitHub",
+        translations: ["Deppenzentrum"],
+        comment: ""
+    },
+    {
+        original: "SUV",
+        translations: ["SNF"],
+        comment: "sport utility vehicle -> Sport Nutzfahrzeug"
     }
 ]
