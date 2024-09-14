@@ -1,8 +1,7 @@
 # zangendeutsch.de
-Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangendeutsch-woerterbuch-erklaerung-bedeutung/), inspiriert duch [r/ich_iel](https://old.reddit.com/r/ich_iel/) auf Reddit und [c/ich_iel](https://feddit.de/c/ich_iel) im Fediverse.
+Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangendeutsch-woerterbuch-erklaerung-bedeutung/), inspiriert duch [r/ich_iel](https://old.reddit.com/r/ich_iel/) auf Reddit und [c/ich_iel (alt)](https://feddit.de/c/ich_iel) bzw. [c/ich_iel (neu)](https://feddit.org/c/ich_iel) im Fediverse.
 
-## Mitmachen
-### Wörter eintragen
+## Wörter eintragen
 - Repository klonen
 - Neuen Branch vom developer Branch erstellen (z.B: word/mein-neues-wort)
 - Eintrag in [data.ts](https://github.com/philipp-schuetz/zangendeutsch.de/blob/main/src/lib/data.ts) hinzufügen oder bestehen verändern
@@ -17,7 +16,27 @@ Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangende
 
 Neu bei GitHub? [Hilfe zu GitHub Beiträgen](https://github.com/firstcontributions/first-contributions/blob/main/translations/README.de.md)
 
-### Entwickeln
+## Nutzung der API
+Für die URL `https://zangendeutsch.de/api?query=fir` wird diese Antwort zurückgegeben:
+```json
+{
+  "query": "fir",
+  "matches": [
+    {
+      "original": "Firefox",
+      "translations": ["Feuerfuchs"],
+      "comment": "Browser"
+    },
+    {
+      "original": "Firewall",
+      "translations": ["Feuerwand"],
+      "comment": ""
+    }
+  ]
+}
+```
+
+## Entwickeln
 Aufsetzen der Entwicklungsumgebung mit npm:
 ```bash
 # install dependencies
