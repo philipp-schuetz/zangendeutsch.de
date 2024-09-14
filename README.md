@@ -17,15 +17,20 @@ Wörterbuch für [Zangendeutsch](https://www.bedeutungonline.de/was-ist-zangende
 Neu bei GitHub? [Hilfe zu GitHub Beiträgen](https://github.com/firstcontributions/first-contributions/blob/main/translations/README.de.md)
 
 ## Nutzung der API
-Für die URL `https://zangendeutsch.de/api?query=ar` wird diese Antwort zurückgegeben:
+Für die URL `https://zangendeutsch.de/api?query=fir` wird diese Antwort zurückgegeben:
 ```json
 {
-  "query": "ar",
+  "query": "fir",
   "matches": [
     {
-      "original": "Archuser",
-      "translations": ["Bogennutzer"],
-      "comment": "Nutzer des Betriebssystems"
+      "original": "Firefox",
+      "translations": ["Feuerfuchs"],
+      "comment": "Browser"
+    },
+    {
+      "original": "Firewall",
+      "translations": ["Feuerwand"],
+      "comment": ""
     }
   ]
 }
