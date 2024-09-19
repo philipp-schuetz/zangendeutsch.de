@@ -35,6 +35,7 @@ Für die URL `https://zangendeutsch.de/api?query=fir` wird diese Antwort zurück
   ]
 }
 ```
+Alle eingetragenen Wörter sind unter `https://zangendeutsch.de/api` zu finden. 
 
 ## Entwickeln
 Aufsetzen der Entwicklungsumgebung mit npm:
