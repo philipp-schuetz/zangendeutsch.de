@@ -2188,5 +2188,10 @@ export const dictionary = [
         original: "SUV",
         translations: ["SNF"],
         comment: "sport utility vehicle -> Sport Nutzfahrzeug"
+    },
+    {
+        original: "Thigh Highs",
+        translations: ["Schenkelhochs"],
+        comment: ""
     }
 ]
