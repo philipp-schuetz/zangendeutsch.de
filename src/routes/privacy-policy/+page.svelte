@@ -249,7 +249,7 @@
 		>
 		<a
 			class="secondary"
-			href="https://github.com/philipp-schuetz/zangendeutsch.de">Mitmachen</a
+			href="https://github.com/philippschuetz/zangendeutsch.de">Mitmachen</a
 		>
 	</footer>
 </article>
